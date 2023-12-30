@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.login{
+  background-image: url(C:\Users\soudh\Desktop\Stock-Market-Dashboard\Images\stock-1863880_1280.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  opacity: 0.8;
+}
+
+.login-container {
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form button {
+  background-color: navy;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.login-form p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.register-page{
+  background-image: url(C:\Users\soudh\Desktop\Stock-Market-Dashboard\Images\stock-1863880_1280.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  opacity: 0.8;
+}
+
+.register-container {
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form input[type="text"],
+.register-form input[type="password"],
+.register-form input[type="email"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.register-form button {
+  background-color: navy;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.register-form button:hover {
+  background-color: #45a049;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.register-form p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 150px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav a.active {
+  color: #ff5733;
+}
+
+.div-page{
+  background-image: url(C:\Users\soudh\Desktop\Stock-Market-Dashboard\Images\stock-1863880_1280.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  opacity: 0.9;
+}
+
+.container {
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: justify;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+}
+
+h3{
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container h4{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading{
+  text-align: center;
+}
+
+.stock-container {
+  width: 80%;
+  margin: 0 auto;
+  
+
+}
+
+.display-stock{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.stock-list {
+  flex: 1;
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.stock-item {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.chart-container {
+  flex: 1;
+  margin: 0px 30px;
+  border-width: 5px;
+  padding: 20px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .stock-list-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stock-list {
+    width: 100%;
+    text-align: center;
+  }
+
+  .stock-item {
+    width: 80%;
+    margin: 5px auto;
+  }
+
+  .chart-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.chart-container {
+  background-color: #f9f9f9;
+  border: 1px solid #1e1e1e;
+}
